@@ -1,6 +1,5 @@
 tenets:
   - name: some-name
-    doc: go
     flows:
       codelingo/review:
         comment: func
@@ -9,6 +8,6 @@ tenets:
         codelingo/ast/go
       )
 
-      @ review.comment
+      @ review comment
       go.func_decl(depth = any)
 
